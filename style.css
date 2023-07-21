@@ -1,8 +1,13 @@
 body {
-	margin: 0px;
+	margin: 0 auto;
+	width: 100%;
 	font-family: Helvetica, sans-serif;
 	color: #0a0203;
 	background-color: #f8f8ff;
+}
+
+html {
+  overflow-x: hidden;
 }
 
 .footer {
@@ -33,7 +38,7 @@ body {
 }
 
 .navbar img {
-	float: right;
+	float: left;
 	padding: 10px 16px 8px 0px;
 	text-decoration: none;
 	height: 32px;
@@ -44,7 +49,7 @@ body {
 	color: #0a0203;
 }
 
-.navbar a.active {Quis commodo odio aenean sed adipiscing. Sit amet porttitor eget dolor morbi non arcu. Adipiscing elit pellentesque habitant morbi tristique senectus et. Tincidunt lobortis feugiat vivamus at augue. Nunc faucibus a pellentesque sit amet porttitor eget dolor. Molestie ac feugiat sed lectus. Id ornare arcu odio ut sem nulla pharetra diam. Ut sem nulla pharetra diam sit amet nisl suscipit adipiscing. Tellus at urna condimentum mattis pellentesque. Elementum sagittis vitae et leo duis ut. Bibendum arcu vitae elementum curabitur. Diam in arcu cursus euismod.
+.navbar a.active {
 	color: #f8f8ff;
 	text-decoration-line: underline;
 	text-decoration-color: #1f69b6;
