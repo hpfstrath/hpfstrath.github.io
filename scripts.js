@@ -3,7 +3,7 @@ function burger_menu() {
 	let strath = document.getElementById("strath-logo");
 	if (navbar.style.height === "auto")
 	{
-		navbar.style.height = "53px";
+		navbar.style.height = "73px";
 		strath.style.display = "none";
 	}
 	else

@@ -69,10 +69,14 @@ h1 {
 
 @media (max-aspect-ratio: 1/1) {
 
+	body {
+		font-size: 32px;
+	}
+
 	.navbar {
 		background-color: #000132;
 		width: 100%;
-		height: 53px;
+		height: 73px;
 		overflow: hidden;
   		position: relative;
 	}
@@ -81,7 +85,6 @@ h1 {
 		color: #f8f8ff;
 		padding: 14px 16px;
 		text-decoration: none;
-		font-size: 17px;
 		display: block;
 	}
 
@@ -101,12 +104,16 @@ h1 {
 		padding: 13px 13px 8px 8px;
 		background-color: #000132;
 		text-decoration: none;
-		height: 32px;
+		height: 52px;
 	}
 
 }
 
 @media (min-aspect-ratio: 1/1) {
+
+	body {
+		font-size: 16px;
+	}
 
 	.navbar {
 		background-color: #000132;
@@ -123,7 +130,6 @@ h1 {
 		text-align: center;
 		padding: 14px 16px;
 		text-decoration: none;
-		font-size: 17px;
 	}
 
 	.navbar img {
