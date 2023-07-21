@@ -2,34 +2,52 @@ body {
 	margin: 0px;
 	font-family: Helvetica, sans-serif;
 	color: #0a0203;
+	background-color: #f8f8ff;
+}
+
+.footer {
+	margin-top: 30px;
+	background-color: #000132;
+	overflow: hidden;
+	width: 100%;
+	color: #f8f8ff;
+	text-align: center;
+	padding: 20px;
 }
 
 .navbar {
-	font-family: Helvetica, sans-serif;
 	background-color: #000132;
 	overflow: hidden;
 	display: flex;
    justify-content: space-between;
+	width: 100%;
 }
 
 .navbar a {
 	float: left;
-	color: #f2f2f2;
+	color: #f8f8ff;
 	text-align: center;
 	padding: 14px 16px;
 	text-decoration: none;
 	font-size: 17px;
 }
 
-.navbar a.inactive:hover {
-	background-color: #ddd;
-	color: black;
+.navbar img {
+	float: right;
+	padding: 10px 16px 8px 0px;
+	text-decoration: none;
+	height: 32px;
 }
 
-.navbar a.active {
-	color: white;
+.navbar a.inactive:hover {
+	background-color: #f8f8ff;
+	color: #0a0203;
+}
+
+.navbar a.active {Quis commodo odio aenean sed adipiscing. Sit amet porttitor eget dolor morbi non arcu. Adipiscing elit pellentesque habitant morbi tristique senectus et. Tincidunt lobortis feugiat vivamus at augue. Nunc faucibus a pellentesque sit amet porttitor eget dolor. Molestie ac feugiat sed lectus. Id ornare arcu odio ut sem nulla pharetra diam. Ut sem nulla pharetra diam sit amet nisl suscipit adipiscing. Tellus at urna condimentum mattis pellentesque. Elementum sagittis vitae et leo duis ut. Bibendum arcu vitae elementum curabitur. Diam in arcu cursus euismod.
+	color: #f8f8ff;
 	text-decoration-line: underline;
-	text-decoration-color: #174e95;
+	text-decoration-color: #1f69b6;
 	text-decoration-thickness: 2px;
 	pointer-events: none;
    cursor: default;
@@ -53,6 +71,8 @@ h1 {
 .right {
 	float: right;
 	width: 50%;
+	margin-left: 20px;
+	margin-bottom: 10px;
 }
 
 .text {
