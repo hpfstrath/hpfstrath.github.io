@@ -5,14 +5,16 @@
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
 	</head>
 	<body>
-		<div class="navbar">
-			<a><b>HPF STRATH</b></a>
+		<script src="scripts.js"></script>
+		<div id="navbar" class="navbar">
+			<a class="title">HPF STRATH</a>
 			<a class="active" href="index.htm">About Us</a>
 			<a class="inactive" href="team.htm">Team</a>
 			<a class="inactive" href="aircraft.htm">Aircraft and Development</a>
 			<a class="inactive" href="sponsors.htm">Sponsors</a>
 			<a class="inactive" href="contact.htm">Contact Us</a>
-			<img class="inline" src="strath.jpg">
+			<img id="strath-logo" src="strath.jpg">
+			<a href="javascript:void(0);" class="icon" onclick="burger_menu()"><i class="fa fa-bars"></i></a>
 		</div>
 		<img class="banner" src="banner.png">
 		<h1> Design<span class="yellow">,</span> Build<span class="yellow">,</span> Fly </h1>

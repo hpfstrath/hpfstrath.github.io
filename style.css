@@ -4,6 +4,7 @@ body {
 	font-family: Helvetica, sans-serif;
 	color: #0a0203;
 	background-color: #f8f8ff;
+	overflow-x: hidden;
 }
 
 html {
@@ -20,44 +21,6 @@ html {
 	padding: 20px;
 }
 
-.navbar {
-	background-color: #000132;
-	overflow: hidden;
-	display: flex;
-   justify-content: space-between;
-	width: 100%;
-}
-
-.navbar a {
-	float: left;
-	color: #f8f8ff;
-	text-align: center;
-	padding: 14px 16px;
-	text-decoration: none;
-	font-size: 17px;
-}
-
-.navbar img {
-	float: left;
-	padding: 10px 16px 8px 0px;
-	text-decoration: none;
-	height: 32px;
-}
-
-.navbar a.inactive:hover {
-	background-color: #f8f8ff;
-	color: #0a0203;
-}
-
-.navbar a.active {
-	color: #f8f8ff;
-	text-decoration-line: underline;
-	text-decoration-color: #1f69b6;
-	text-decoration-thickness: 2px;
-	pointer-events: none;
-   cursor: default;
-}
-
 h1 {
 	font-style: italic;
 	font-size: 9vw;
@@ -68,6 +31,7 @@ h1 {
 .yellow {
 	color: #ffc32b;
 }
+
 
 .banner {
 	width: 100%;
@@ -83,4 +47,95 @@ h1 {
 .text {
 	margin-left: 15%;
 	margin-right: 15%;
+}
+
+.navbar a.icon:hover, a.inactive:hover {
+	background-color: #f8f8ff;
+	color: #0a0203;
+}
+
+.navbar a.active {
+	color: #f8f8ff;
+	text-decoration-line: underline;
+	text-decoration-color: #1f69b6;
+	text-decoration-thickness: 2px;
+	pointer-events: none;
+	cursor: default;
+}
+
+.navbar a.title {
+	font-weight: bold;
+}
+
+@media (max-aspect-ratio: 1/1) {
+
+	.navbar {
+		background-color: #000132;
+		width: 100%;
+		height: 53px;
+		overflow: hidden;
+  		position: relative;
+	}
+
+	.navbar a {
+		color: #f8f8ff;
+		padding: 14px 16px;
+		text-decoration: none;
+		font-size: 17px;
+		display: block;
+	}
+
+	.navbar a.icon {
+	  background: #000132;
+	  display: block;
+	  position: absolute;
+	  top: 0;
+	  right: 0;
+	}
+
+	.navbar img {
+		display: none;
+		right: 0;
+		bottom: 0;
+		position: absolute;
+		padding: 13px 13px 8px 8px;
+		background-color: #000132;
+		text-decoration: none;
+		height: 32px;
+	}
+
+}
+
+@media (min-aspect-ratio: 1/1) {
+
+	.navbar {
+		background-color: #000132;
+		overflow: hidden;
+		display: flex;
+		justify-content: space-between;
+		width: 100%;
+		height: auto;
+	}
+
+	.navbar a {
+		float: left;
+		color: #f8f8ff;
+		text-align: center;
+		padding: 14px 16px;
+		text-decoration: none;
+		font-size: 17px;
+	}
+
+	.navbar img {
+		display: block;
+		float: left;
+		padding: 10px 10px 8px 0px;
+		text-decoration: none;
+		height: 32px;
+	}
+
+	.navbar a.icon {
+	  display: none;
+	}
+
 }
