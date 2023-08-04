@@ -61,12 +61,12 @@ h1 {
 
 	.navbar {
 		white-space: nowrap;
-		font-size: 18px;
+		font-size: 45px;
 		background-color: #000132;
 		width: 100%;
 		overflow: hidden;
   		position: relative;
-		height: 54px;
+		height: 91px;
 	}
 
 	.navbar a {
@@ -92,7 +92,7 @@ h1 {
 		padding: 0px;
 		background-color: #000132;
 		text-decoration: none;
-		height: 54px;
+		height: 91px;
 	}
 
 	#hpf-logo {
@@ -103,7 +103,7 @@ h1 {
 		padding: 0px;
 		background-color: #000132;
 		text-decoration: none;
-		height: 54px;
+		height: 91px;
 	}
 
 	.right {

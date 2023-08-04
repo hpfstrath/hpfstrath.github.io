@@ -5,7 +5,7 @@ function burger_menu()
 	if (navbar.style.height === "auto")
 	{
 		strath.style.display = "none";
-		navbar.style.height = "54px";
+		navbar.style.height = "91px";
 	}
 	else
 	{
