@@ -2,7 +2,7 @@ body {
 	font-size: 16px;
 	margin: 0 auto;
 	width: 100%;
-	font-family: Helvetica, sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	color: #0a0203;
 	background-color: #f8f8ff;
 	overflow-x: hidden;
@@ -26,7 +26,8 @@ h1 {
 	font-style: italic;
 	font-size: 10vw;
 	text-align: center;
-	margin: 0px;
+	margin-top: 20px;
+	margin-bottom: 40px;
 }
 
 .yellow {
