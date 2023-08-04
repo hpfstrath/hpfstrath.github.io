@@ -57,10 +57,6 @@ h1 {
 	cursor: default;
 }
 
-.navbar a.title {
-	font-weight: bold;
-}
-
 @media (max-aspect-ratio: 1/1) {
 
 	.navbar {
@@ -68,9 +64,9 @@ h1 {
 		font-size: 18px;
 		background-color: #000132;
 		width: 100%;
-		height: auto;
 		overflow: hidden;
   		position: relative;
+		height: 54px;
 	}
 
 	.navbar a {
@@ -88,15 +84,26 @@ h1 {
 	  right: 0;
 	}
 
-	.navbar img {
+	#strath-logo {
 		display: none;
 		right: 0;
 		bottom: 0;
 		position: absolute;
-		padding: 13px 13px 8px 8px;
+		padding: 0px;
 		background-color: #000132;
 		text-decoration: none;
-		height: 52px;
+		height: 54px;
+	}
+
+	#hpf-logo {
+		display: block;
+		left: 0;
+		top: 0;
+		position: absolute;
+		padding: 0px;
+		background-color: #000132;
+		text-decoration: none;
+		height: 54px;
 	}
 
 	.right {
@@ -141,9 +148,9 @@ h1 {
 	.navbar img {
 		display: block;
 		float: left;
-		padding: 10px 10px 8px 0px;
+		padding: 0px;
 		text-decoration: none;
-		height: 32px;
+		height: 54px;
 	}
 
 	.navbar a.icon {

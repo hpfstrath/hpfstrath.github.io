@@ -5,7 +5,7 @@ function burger_menu()
 	if (navbar.style.height === "auto")
 	{
 		strath.style.display = "none";
-		navbar.style.height = Math.max(...[...navbar.children].map(x => x.clientHeight)) + "px";
+		navbar.style.height = "54px";
 	}
 	else
 	{
@@ -13,6 +13,3 @@ function burger_menu()
 		strath.style.display = "block";
   	}
 }
-
-let navbar = document.getElementById("navbar");
-navbar.style.height = Math.max(...[...navbar.children].map(x => x.clientHeight)) + "px";
