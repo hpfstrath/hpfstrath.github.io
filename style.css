@@ -70,11 +70,11 @@ h1 {
 		overflow: hidden;
   		position: relative;
 		max-height: 91px;
-		transition: max-height 5s;
+		transition: max-height 1s;
 	}
 
 	.navbar.open {
-		transition: max-height 5s;
+		transition: max-height 1s;
 		height: auto;
 		max-height: 1000px;
 	}
@@ -104,12 +104,12 @@ h1 {
 		background-color: #000132;
 		text-decoration: none;
 		height: 91px;
-		transition: opacity 5s;
+		transition: opacity 1s;
 	}
 
 	#strath-logo.open {
 		opacity: 1.0;
-		transition: opacity 5s;
+		transition: opacity 1s;
 	}
 
 	#hpf-logo {
