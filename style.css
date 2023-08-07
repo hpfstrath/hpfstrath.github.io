@@ -76,7 +76,7 @@ h1 {
 	.navbar.open {
 		transition: max-height 1s;
 		height: auto;
-		max-height: 1000px;
+		max-height: 455px;
 	}
 
 	.navbar a {
