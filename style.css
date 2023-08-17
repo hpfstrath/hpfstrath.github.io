@@ -209,7 +209,7 @@ table {
 	text-align: center;
 }
 
-.outer th {
+.big-th {
 	font-weight: 600;
 	font-style: italic;
 	font-size: 32px;
@@ -242,9 +242,8 @@ table {
 	font-size: 12px;
 }
 
-.inner th {
+.small-th {
 	padding: 5px;
-	font-size: 16px;
 }
 
 .member-container {
@@ -307,3 +306,7 @@ table {
 }
 
 .fill { width: 100%; }
+
+.responsive-td {
+	display: inline;
+}
