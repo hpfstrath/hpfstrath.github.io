@@ -88,6 +88,7 @@ h1 {
 		padding: 18px 18px;
 		text-decoration: none;
 		display: block;
+		transition: all 1s ease-out
 	}
 
 	.navbar a.icon {
@@ -195,6 +196,7 @@ h1 {
 		text-align: center;
 		padding: 14px 16px;
 		text-decoration: none;
+		transition: all 500ms ease-out
 	}
 
 	.navbar img {
@@ -293,6 +295,7 @@ table {
 	height:50%;
 	background-color:#ffc32b;
 	z-index: -1;
+	transition: all 1s ease-out
 }
 
 .yellow-halfbox:after {
@@ -305,6 +308,17 @@ table {
 	height:50%;
 	background-color:#ffc32b;
 	z-index: -1;
+	transition: all 1s ease-out
+}
+
+.yellow-halfbox:hover:after {
+	width:100%;
+	height:100%;
+}
+
+.yellow-halfbox:hover:before {
+	width:100%;
+	height:100%;
 }
 
 .blue-halfbox {
@@ -315,11 +329,12 @@ table {
 	bottom:5px;
 	content: "";
 	position: absolute;
-	margin:-8px;
+	margin:-10px;
 	width:50%;
 	height:50%;
 	background-color:#1f69b6;
 	z-index: -1;
+	transition: all 1s ease-out
 }
 
 .blue-halfbox:after {
@@ -327,14 +342,31 @@ table {
 	right: 0px;
 	content: "";
 	position: absolute;
-	margin:-8px;
+	margin:-10px;
 	width:50%;
 	height:50%;
 	background-color:#1f69b6;
 	z-index: -1;
+	transition: all 1s ease-out
 }
 
-.fill { width: 100%; }
+.blue-halfbox:hover:after {
+	width:100%;
+	height:100%;
+}
+
+.blue-halfbox:hover:before {
+	width:100%;
+	height:100%;
+}
+
+
+
+.fill {
+	width: 100%;
+	height: auto;
+	padding: 0;
+}
 
 .big-th {
 	font-weight: 600;
