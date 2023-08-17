@@ -136,7 +136,7 @@ h1 {
 		margin-bottom: 40px;
 	}
 
-		.left {
+	.left {
 		display: block;
   		margin-left: auto;
   		margin-right: auto;
@@ -144,6 +144,28 @@ h1 {
 		margin-top: 40px;
 		margin-bottom: 40px;
 	}
+
+	.responsive-td {
+		display: table-row;
+	}
+
+	.big-th {
+		font-size: 60px;
+	}
+
+	.inner td {
+		font-size: 18px;
+		padding: 20px;
+	}
+
+	.small-th {
+		font-size: 24px;
+	}
+
+	.inner {
+		padding: 20px;
+	}
+
 }
 
 .yellow-shadow {
@@ -203,30 +225,43 @@ h1 {
 		margin: 10px 40px 30px 0px;
 	}
 
+	.outer {
+		table-layout: fixed;
+	}
+
+	.big-th {
+		font-size: 32px;
+	}
+
+	.inner td {
+		padding: 0px;
+		font-size: 12px;
+	}
+
+	.small-th {
+		font-size: 16px;
+	}
+}
+
+.inner td {
+	padding: 0px;
 }
 
 table {
 	text-align: center;
 }
 
-.big-th {
-	font-weight: 600;
-	font-style: italic;
-	font-size: 32px;
-	text-align: center;
-	padding: 20px;
-}
-
 .outer {
-	table-layout: fixed;
 	width: 100%;
-	margin-top: 20px;
+	margin: 0 auto;
 }
 
 .inner {
 	table-layout: fixed;
 	width: 100%;
 	margin: auto;
+	padding-bottom: 30px;
+	padding-top: 0px;
 }
 
 .narrow {
@@ -234,16 +269,10 @@ table {
 }
 
 .outer td {
-	padding: 0px;
-}
-
-.inner td {
-	padding: 0px;
-	font-size: 12px;
 }
 
 .small-th {
-	padding: 5px;
+	padding-top: 10px;
 }
 
 .member-container {
@@ -307,6 +336,9 @@ table {
 
 .fill { width: 100%; }
 
-.responsive-td {
-	display: inline;
+.big-th {
+	font-weight: 600;
+	font-style: italic;
+	text-align: center;
+	padding: 20px;
 }
