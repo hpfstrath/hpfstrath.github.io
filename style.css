@@ -20,7 +20,11 @@ html {
 	width: 100%;
 	color: #f8f8ff;
 	text-align: center;
-	padding: 20px;
+}
+
+.footer-image {
+	height: 50px;
+	padding: 10px;
 }
 
 h1 {
@@ -130,20 +134,24 @@ h1 {
 		width: 90%;
 		margin-top: 40px;
 		margin-bottom: 40px;
-		box-shadow: 10px 10px #ffc32b;
 	}
 
-	.left {
+		.left {
 		display: block;
   		margin-left: auto;
   		margin-right: auto;
 		width: 90%;
 		margin-top: 40px;
 		margin-bottom: 40px;
-		box-shadow: 10px 10px #1f69b6;
-
 	}
+}
 
+.yellow-shadow {
+	box-shadow: 10px 10px #ffc32b;
+}
+
+.blue-shadow {
+	box-shadow: -10px 10px #1f69b6;
 }
 
 @media (min-aspect-ratio: 1/1) {
@@ -187,13 +195,115 @@ h1 {
 		float: right;
 		width: 50%;
 		margin: 10px 0px 30px 40px;
-		box-shadow: 10px 10px #ffc32b;
 	}
 
 	.left {
 		float: left;
 		width: 50%;
 		margin: 10px 40px 30px 0px;
-		box-shadow: -10px 10px #1f69b6;
 	}
+
 }
+
+table {
+	text-align: center;
+}
+
+.outer th {
+	font-weight: 600;
+	font-style: italic;
+	font-size: 32px;
+	text-align: center;
+	padding: 20px;
+}
+
+.outer {
+	table-layout: fixed;
+	width: 100%;
+	margin-top: 20px;
+}
+
+.inner {
+	table-layout: fixed;
+	width: 100%;
+	margin: auto;
+}
+
+.narrow {
+	width: 80%;
+}
+
+.outer td {
+	padding: 0px;
+}
+
+.inner td {
+	padding: 0px;
+	font-size: 12px;
+}
+
+.inner th {
+	padding: 5px;
+	font-size: 16px;
+}
+
+.member-container {
+	width: 70%;
+	margin: auto;
+}
+
+.yellow-halfbox {
+	position: relative;
+}
+
+.yellow-halfbox:before {
+	bottom:5px;
+	content: "";
+	position: absolute;
+	margin:-8px;
+	width:50%;
+	height:50%;
+	background-color:#ffc32b;
+	z-index: -1;
+}
+
+.yellow-halfbox:after {
+	top:0px;
+	right: 0px;
+	content: "";
+	position: absolute;
+	margin:-8px;
+	width:50%;
+	height:50%;
+	background-color:#ffc32b;
+	z-index: -1;
+}
+
+.blue-halfbox {
+	position: relative;
+}
+
+.blue-halfbox:before {
+	bottom:5px;
+	content: "";
+	position: absolute;
+	margin:-8px;
+	width:50%;
+	height:50%;
+	background-color:#1f69b6;
+	z-index: -1;
+}
+
+.blue-halfbox:after {
+	top:0px;
+	right: 0px;
+	content: "";
+	position: absolute;
+	margin:-8px;
+	width:50%;
+	height:50%;
+	background-color:#1f69b6;
+	z-index: -1;
+}
+
+.fill { width: 100%; }
