@@ -374,3 +374,22 @@ table {
 	text-align: center;
 	padding: 20px;
 }
+
+.bgimage {
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+	padding-bottom: 40px;
+}
+
+.white-text {
+	color: #ffffff;
+}
+
+.yellow-sides {
+	border-color: #ffc32b;
+	border-style: none solid none solid;
+	border-width: 5px;
+	padding-left: 40px;
+	padding-right: 40px;
+}
