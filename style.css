@@ -179,6 +179,9 @@ h1 {
 
 @media (min-aspect-ratio: 1/1) {
 
+	.bgimage {
+		background-attachment: fixed;
+	}
 	.navbar {
 		white-space: nowrap;
 		font-size: 18px;
@@ -228,6 +231,10 @@ h1 {
 	}
 
 	.outer {
+		table-layout: fixed;
+	}
+
+	.side-by-side {
 		table-layout: fixed;
 	}
 
@@ -377,8 +384,7 @@ table {
 
 .bgimage {
 	background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-size: 100% 100%;
+	background-size: cover;
 	padding-bottom: 40px;
 }
 
@@ -392,4 +398,25 @@ table {
 	border-width: 5px;
 	padding-left: 40px;
 	padding-right: 40px;
+}
+
+.side-by-side {
+	width: 80%;
+	margin: 30px auto;
+}
+
+.contact-logo {
+	float: left;
+	padding-left: 20%;
+	padding-right: 20%;
+	padding-bottom: 30px;
+	aspect-ratio: 1/1;
+}
+
+.sponsor-logo {
+	float: left;
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-bottom: 30px;
+	padding-top: 50px;
 }
